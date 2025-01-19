@@ -41,9 +41,10 @@ class WordsFinder:
         return dict
 
 
-a = WordsFinder('text1.txt', 'text2.txt', 'text3.txt')
-print(a.get_all_words())
-print(a.find('Is'))
-print(a.count('iS'))
-print(a.find('teXt'))
-print(a.count('TEXT'))
+if __name__ == '__main__':
+    a = WordsFinder('text1.txt', 'text2.txt', 'text3.txt')
+    print(a.get_all_words())
+    print(a.find('Is'))
+    print(a.count('iS'))
+    print(a.find('teXt'))
+    print(a.count('TEXT'))
