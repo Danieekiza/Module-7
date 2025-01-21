@@ -31,4 +31,4 @@ else:
     result = f'Ничья!'
 print(result)
 
-print(round(2.023948, 2))
+# print(round(2.023948, 2))
